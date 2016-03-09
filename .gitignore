@@ -1,6 +1,10 @@
 # Composer files
 composer.phar
 vendor/
+netbeans/
+**/vendor/
+**/netbeans/
+
 
 # Local configs
 config/autoload/*.local.php
