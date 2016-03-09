@@ -1,4 +1,5 @@
 {
+    "name": "wtajger/php-preg-results-displayer",
     "autoload": {
         "psr-0": {
             "Wtajger\\": "src/"
