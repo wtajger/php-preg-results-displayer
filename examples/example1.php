@@ -5,10 +5,10 @@
 </head>
 <body>
 <?php
-//include_once '../src/Wtajger/Page/PageDisplayer.php';
+//include_once '../src/Wtajger/Page/SimplePageDisplayer.php';
 include_once '../vendor/autoload.php';
 
-$displayer = new Wtajger\Page\PageDisplayer();
+$displayer = new Wtajger\Page\SimplePageDisplayer();
 echo "<pre>"; var_dump($displayer); echo "</pre>";
 $displayer->hello();
 // In the root directory

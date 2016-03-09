@@ -1,8 +1,9 @@
 <?php
 include_once '../vendor/autoload.php';
 
-$displayer = new Wtajger\Page\PageDisplayer();
+$displayer = new Wtajger\Page\SimplePageDisplayer();
 $displayer->displayHtmlStart();
+echo "Inny tekst<br/>\n";
 $displayer->hello();
 $displayer->displayHtmlEnd();
 // In the root directory
@@ -14,5 +15,3 @@ $displayer->displayHtmlEnd();
 // Display in the browser 
 // localhost:8080/example2.php
 ?>
-</body>
-</html>
