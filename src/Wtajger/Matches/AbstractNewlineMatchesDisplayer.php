@@ -1,7 +1,10 @@
 <?php
 namespace Wtajger\Matches;
 
-/** Displays matches found in the text */
+/** Displays matches found in the text 
+ *  
+ *  Defines the display in the form of new lines
+ */
 abstract class AbstractNewlineMatchesDisplayer extends AbstractMatchesDisplayer 
 {    
     public function displayMatches($matches, $text = null) 

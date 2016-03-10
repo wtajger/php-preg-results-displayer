@@ -18,7 +18,7 @@ Displays results of preg_match_all
 
 ###Example use 
 
-Script (example/example4.php)
+Script (examples/example4.php)
 ```php
 ?php
 include_once '../vendor/autoload.php';

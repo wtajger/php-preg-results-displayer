@@ -2,6 +2,8 @@
 namespace Wtajger\Matches;
 
 /** Displays matches found in the text
+ *  
+ *  Sets polish text messages 
  */
 class PolishNewlineMatchesDisplayer extends AbstractNewlineMatchesDisplayer 
 {

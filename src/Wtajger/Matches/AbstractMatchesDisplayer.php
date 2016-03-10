@@ -1,7 +1,10 @@
 <?php
 namespace Wtajger\Matches;
 
-/** Displays matches found in the text */
+/** Displays found matches and searched text 
+ *  
+ *  Defines the text messages displayed for the results
+ */
 abstract class AbstractMatchesDisplayer implements IMatchesDisplayer {
     protected $inputStringText;
     protected $offsetText;

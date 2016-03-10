@@ -1,7 +1,9 @@
 <?php
 namespace Wtajger\Matches;
 
-/** Displays matches found in the text
+/** Displays found matches and searched text
+ *  
+ *  Sets english text messages 
  */
 class EnglishNewlineMatchesDisplayer extends AbstractNewlineMatchesDisplayer 
 {
