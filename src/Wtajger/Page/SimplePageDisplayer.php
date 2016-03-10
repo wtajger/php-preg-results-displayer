@@ -1,6 +1,7 @@
 <?php
 namespace Wtajger\Page;
 
+/** HTML Page with title */
 class SimplePageDisplayer implements IPageDisplayer
 {
     protected $htmlStart;
@@ -9,7 +10,6 @@ class SimplePageDisplayer implements IPageDisplayer
     
     protected function initHtmlStart() 
     {
-        //$pageTitle = "Page Title";
         $this->htmlStart =<<<HEREDOC
 <html>
 <head>

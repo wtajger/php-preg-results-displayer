@@ -6,10 +6,10 @@ namespace Wtajger\Matches;
  *  Defines the text messages displayed for the results
  */
 abstract class AbstractMatchesDisplayer implements IMatchesDisplayer {
-    protected $inputStringText;
-    protected $offsetText;
-    protected $patternMatchText;
-    protected $subpatternMatchText;
+    protected $inputStringText; /**< message before searched text */
+    protected $offsetText; /**< message before offset text */
+    protected $patternMatchText; /**< message before full pattern matches */
+    protected $subpatternMatchText; /**< message before subpattern matches */
     
     protected function setInputStringText($text) 
     {

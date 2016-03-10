@@ -15,6 +15,11 @@ class MatchesPageDisplayer implements IMatchesDisplayer, IPageDisplayer
     protected $matchesDisplayer;
     protected $pageDisplayer;
   
+    /** Constructor injects instances IMatchesDisplayer and IPageDisplayer
+     *  
+     *  @param $imd object that implements IMatchesDisplayer
+     *  @param $ipd object that implements IPageDisplayer
+     */
     public function __construct(IMatchesDisplayer $imd, IPageDisplayer $ipd)
     {
         $this->matchesDisplayer = $imd;
@@ -36,20 +41,3 @@ class MatchesPageDisplayer implements IMatchesDisplayer, IPageDisplayer
         $this->pageDisplayer->displayHtmlEnd();
     }
 }
-/*
-displayHtmlStart();
-
-$text = "mat, pat, kat, at";
-if (preg_match_all('/.a(t)/', $text, $matches, PREG_OFFSET_CAPTURE)) {
-    $matchesDisplayer->displayMatches($matches);
-}
-
-echo "<hr/>\n";
-
-$text = "hip, hop, home, hoop";
-if (preg_match_all('/(o+)(p)/', $text, $matches, PREG_OFFSET_CAPTURE)) {
-    $matchesDisplayer->displayMatches($matches, $text);
-}
-
-$pageDisplayer->displayHtmlEnd();
-*/

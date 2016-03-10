@@ -1,6 +1,7 @@
 <?php
 namespace Wtajger\Page;
 
+/** Displays start and the end of HTML page*/
 interface IPageDisplayer
 {
     /** Display the beginning of HTML document from <html> to <body>
